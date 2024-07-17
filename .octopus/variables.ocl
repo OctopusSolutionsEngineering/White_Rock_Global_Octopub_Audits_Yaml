@@ -34,7 +34,7 @@ variable "Project.Deployment.Name" {
     value "octopub-audit-deployment" {}
 }
 
-variable "Octopus.Azure.Account" {
+variable "old-Octopus.Azure.Account" {
     type = "AzureAccount"
 
     value "demo-octopus-app" {
